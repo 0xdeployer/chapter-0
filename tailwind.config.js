@@ -2,8 +2,13 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
+    animation: {
+      nethria: "nethria 0.5s linear, shake 0.5s linear",
+    },
     colors: {
       white: "#FFFFFF",
+      red: "red",
+      green: "#5DD4AE",
       "warm-gray": {
         25: "#FDFBF5",
         50: "#FAF8F2",
