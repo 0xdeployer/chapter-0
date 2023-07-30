@@ -121,7 +121,7 @@ function App() {
                 )}
               </div>
               <div>
-                <div className="mt-4 flex gap-4">
+                <div className="mt-4 flex gap-4 flex-col sm:flex-row">
                   <Button
                     aProps={{
                       href: "https://synthia.love",
@@ -240,7 +240,7 @@ function App() {
               )}
             <div className="text-center">
               <a
-                className="text-center text-cold-gray-400 underline text-[12px]"
+                className="text-center text-cold-gray-400 underline text-[12px] break-words"
                 href="https://etherscan.io/address/0xf0d1af299c724bce4cf40e7d045feff1d0509531"
                 target="_blank"
               >
