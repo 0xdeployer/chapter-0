@@ -239,13 +239,24 @@ function App() {
                 </>
               )}
             <div className="text-center">
-              <a
-                className="text-center text-cold-gray-400 underline text-[12px] break-words"
-                href="https://etherscan.io/address/0xf0d1af299c724bce4cf40e7d045feff1d0509531"
-                target="_blank"
-              >
-                0xf0d1af299c724bce4cf40e7d045feff1d0509531
-              </a>
+              <div>
+                <a
+                  className="text-center text-cold-gray-400 underline text-[12px] break-words"
+                  href="https://etherscan.io/address/0xf0d1af299c724bce4cf40e7d045feff1d0509531"
+                  target="_blank"
+                >
+                  Etherscan: 0xf0d1af299c724bce4cf40e7d045feff1d0509531
+                </a>
+              </div>
+              <div>
+                <a
+                  className="text-center text-cold-gray-400 underline text-[12px] break-words"
+                  href="https://opensea.io/collection/nethria-chapter-0"
+                  target="_blank"
+                >
+                  OpenSea: https://opensea.io/collection/nethria-chapter-0
+                </a>
+              </div>
             </div>
           </Box>
         </div>
