@@ -58,7 +58,7 @@ export const useWeb3Store = create<Web3Store>()(
             // @ts-ignore
             transport: custom(window.ethereum),
           });
-          const [address] = await client.getAddresses();
+          const [address] = await client.requestAddresses();
           const canMint = await contract.read.canMint({ args: [address] });
           set({ address, canMint });
         },
